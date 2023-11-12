@@ -1,0 +1,460 @@
+1687458402897	geckodriver	INFO	Listening on 127.0.0.1:64405
+1687458408157	geckodriver	INFO	Listening on 127.0.0.1:64476
+1687458414987	geckodriver	INFO	Listening on 127.0.0.1:64558
+1687458420828	geckodriver	INFO	Listening on 127.0.0.1:64648
+1687458426285	geckodriver	INFO	Listening on 127.0.0.1:64721
+1692975160005	geckodriver	INFO	Listening on 127.0.0.1:62250
+1692975160432	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofile6tGLun"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975160751	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975160860	Marionette	INFO	Listening on port 62258
+Read port: 62258
+WebDriver BiDi listening on ws://127.0.0.1:62251
+1692975160996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62251/devtools/browser/f84f431a-b8e2-4fe8-9a82-23b7027f7321
+1692975163353	Marionette	INFO	Stopped listening on port 62258
+1692975227588	geckodriver	INFO	Listening on 127.0.0.1:62322
+1692975228042	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileJyoa25"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975228313	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975228413	Marionette	INFO	Listening on port 62330
+Read port: 62330
+WebDriver BiDi listening on ws://127.0.0.1:62323
+1692975228568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62323/devtools/browser/f737d0ae-0bac-4aef-ac68-609b0045b5ea
+1692975230358	Marionette	INFO	Stopped listening on port 62330
+1692975295281	geckodriver	INFO	Listening on 127.0.0.1:62400
+1692975295731	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilezu1Lgs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975295998	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975296096	Marionette	INFO	Listening on port 62408
+Read port: 62408
+WebDriver BiDi listening on ws://127.0.0.1:62401
+1692975296228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62401/devtools/browser/acd69903-1fdd-4a9d-8342-2e891ca69dde
+1692975299248	Marionette	INFO	Stopped listening on port 62408
+1692975363606	geckodriver	INFO	Listening on 127.0.0.1:62487
+1692975364049	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileL8gZ1O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975364317	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975364496	Marionette	INFO	Listening on port 62495
+WebDriver BiDi listening on ws://127.0.0.1:62488
+Read port: 62495
+1692975364596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62488/devtools/browser/6782164a-566a-43b2-812b-74f7e1986dfe
+1692975366642	Marionette	INFO	Stopped listening on port 62495
+1692975431314	geckodriver	INFO	Listening on 127.0.0.1:62560
+1692975431763	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofile1OHq0R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975432029	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975432129	Marionette	INFO	Listening on port 62568
+Read port: 62568
+WebDriver BiDi listening on ws://127.0.0.1:62561
+1692975432264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62561/devtools/browser/f8067858-717a-413d-bcaa-2115fb572449
+1692975434151	Marionette	INFO	Stopped listening on port 62568
+1692975492799	geckodriver	INFO	Listening on 127.0.0.1:62611
+1692975493251	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileHCLTQT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975493527	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975493623	Marionette	INFO	Listening on port 62619
+Read port: 62619
+WebDriver BiDi listening on ws://127.0.0.1:62612
+1692975493692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62612/devtools/browser/8b295470-01b1-4112-bce7-f597e8c664d2
+1692975495480	Marionette	INFO	Stopped listening on port 62619
+1692975497109	geckodriver	INFO	Listening on 127.0.0.1:62651
+1692975497577	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileBSYqNu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975497862	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975498078	Marionette	INFO	Listening on port 62659
+WebDriver BiDi listening on ws://127.0.0.1:62652
+Read port: 62659
+1692975498192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62652/devtools/browser/27584a24-9819-4962-b32e-ae4a9a51107a
+1692975499701	Marionette	INFO	Stopped listening on port 62659
+1692975501500	geckodriver	INFO	Listening on 127.0.0.1:62693
+1692975501957	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileaLUAIq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975502240	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975502475	Marionette	INFO	Listening on port 62701
+Read port: 62701
+WebDriver BiDi listening on ws://127.0.0.1:62694
+1692975502497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62694/devtools/browser/9a1277cc-620f-436b-876d-ca53f5d204bf
+1692975505370	Marionette	INFO	Stopped listening on port 62701
+1692975506269	geckodriver	INFO	Listening on 127.0.0.1:62743
+1692975506721	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilev6SNDB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975507015	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975507232	Marionette	INFO	Listening on port 62751
+WebDriver BiDi listening on ws://127.0.0.1:62744
+Read port: 62751
+1692975507315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62744/devtools/browser/a9d2cd4b-ffd7-456f-802b-51cdca822c90
+1692975509244	Marionette	INFO	Stopped listening on port 62751
+1692975510630	geckodriver	INFO	Listening on 127.0.0.1:62784
+1692975511085	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileENkWXK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975511382	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975511598	Marionette	INFO	Listening on port 62792
+Read port: 62792
+WebDriver BiDi listening on ws://127.0.0.1:62785
+1692975511620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62785/devtools/browser/9de98d8f-ae41-470e-ae3d-c351e15bec10
+1692975513346	Marionette	INFO	Stopped listening on port 62792
+1692975678617	geckodriver	INFO	Listening on 127.0.0.1:62838
+1692975679064	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileiaTZNP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975679329	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975679541	Marionette	INFO	Listening on port 62846
+WebDriver BiDi listening on ws://127.0.0.1:62839
+Read port: 62846
+1692975679652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62839/devtools/browser/35ba23bf-39e8-4cf1-a4f8-afcdf0ea05b7
+1692975681417	Marionette	INFO	Stopped listening on port 62846
+1692975682934	geckodriver	INFO	Listening on 127.0.0.1:62885
+1692975683388	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilemIDPSc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975683674	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975683887	Marionette	INFO	Listening on port 62893
+WebDriver BiDi listening on ws://127.0.0.1:62886
+Read port: 62893
+1692975683998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62886/devtools/browser/e7c147dc-0f88-48ca-9279-2965a6ba8d1b
+1692975691732	Marionette	INFO	Stopped listening on port 62893
+1692975692713	geckodriver	INFO	Listening on 127.0.0.1:62936
+1692975693162	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileMkWFVX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975693448	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975693662	Marionette	INFO	Listening on port 62944
+WebDriver BiDi listening on ws://127.0.0.1:62937
+Read port: 62944
+1692975693785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62937/devtools/browser/44182983-512b-42ae-ab1e-c74f90d68236
+1692975696576	Marionette	INFO	Stopped listening on port 62944
+1692975697449	geckodriver	INFO	Listening on 127.0.0.1:62985
+1692975697903	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileOCed03"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975698188	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975698404	Marionette	INFO	Listening on port 62993
+WebDriver BiDi listening on ws://127.0.0.1:62986
+Read port: 62993
+1692975698518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:62986/devtools/browser/984f9a32-20f4-4832-8398-c12a103020ac
+1692975700372	Marionette	INFO	Stopped listening on port 62993
+1692975701765	geckodriver	INFO	Listening on 127.0.0.1:63027
+1692975702217	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileagCUWc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692975702520	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1692975702626	Marionette	INFO	Listening on port 63035
+Read port: 63035
+WebDriver BiDi listening on ws://127.0.0.1:63028
+1692975702754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63028/devtools/browser/420cdc43-dce8-4cc8-beaf-2dacc4cd176e
+1692975704403	Marionette	INFO	Stopped listening on port 63035
+1693128599135	geckodriver	INFO	Listening on 127.0.0.1:49657
+1693128599554	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofile2IXQRX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693128599847	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1693128599952	Marionette	INFO	Listening on port 49665
+Read port: 49665
+WebDriver BiDi listening on ws://127.0.0.1:49658
+1693128600002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49658/devtools/browser/317b271a-48d0-4643-b0a1-ede4b689171c
+1693128603688	Marionette	INFO	Stopped listening on port 49665
+1693128604572	geckodriver	INFO	Listening on 127.0.0.1:49699
+1693128605014	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileXf6BA3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693128605298	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1693128605475	Marionette	INFO	Listening on port 49707
+WebDriver BiDi listening on ws://127.0.0.1:49700
+Read port: 49707
+1693128605571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49700/devtools/browser/9e1db240-6b12-43a1-b595-6c277e63d290
+1693128608156	Marionette	INFO	Stopped listening on port 49707
+1693128609053	geckodriver	INFO	Listening on 127.0.0.1:49743
+1693128609498	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileNpXKtM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693128609780	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1693128609958	Marionette	INFO	Listening on port 49751
+WebDriver BiDi listening on ws://127.0.0.1:49744
+Read port: 49751
+1693128610056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49744/devtools/browser/439e3bd7-f754-4ce2-a622-7734cea72f0b
+1693128613219	Marionette	INFO	Stopped listening on port 49751
+1693128614030	geckodriver	INFO	Listening on 127.0.0.1:49786
+1693128614474	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilemikwvZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693128614750	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1693128614928	Marionette	INFO	Listening on port 49794
+WebDriver BiDi listening on ws://127.0.0.1:49787
+Read port: 49794
+1693128615026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49787/devtools/browser/03e49f08-6a55-4566-8aa5-ce17b5df71e5
+1693128617039	Marionette	INFO	Stopped listening on port 49794
+1693128618377	geckodriver	INFO	Listening on 127.0.0.1:49830
+1693128618821	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilef9Xw2G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693128619100	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1693128619277	Marionette	INFO	Listening on port 49838
+WebDriver BiDi listening on ws://127.0.0.1:49831
+Read port: 49838
+1693128619372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49831/devtools/browser/8c07c2da-7e1e-4496-ab15-3d595e919085
+1693128621478	Marionette	INFO	Stopped listening on port 49838
+1697639369728	geckodriver	INFO	Listening on 127.0.0.1:63178
+1697639370144	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileHBeh9R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697639370528	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697639370666	Marionette	INFO	Listening on port 63190
+Read port: 63190
+WebDriver BiDi listening on ws://127.0.0.1:63179
+1697639370752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63179/devtools/browser/aa36135e-7292-4860-9a6e-bc87e70ef278
+1697639372939	Marionette	INFO	Stopped listening on port 63190
+1697639437109	geckodriver	INFO	Listening on 127.0.0.1:63523
+1697639437549	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileyRrKFt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697639437814	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697639438001	Marionette	INFO	Listening on port 63535
+WebDriver BiDi listening on ws://127.0.0.1:63524
+Read port: 63535
+1697639438096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63524/devtools/browser/dba2c577-7815-4f4c-8b95-b026fe9df625
+1697639439492	Marionette	INFO	Stopped listening on port 63535
+1697639504270	geckodriver	INFO	Listening on 127.0.0.1:63864
+1697639504721	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilenncC7c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697639505007	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697639505190	Marionette	INFO	Listening on port 63876
+WebDriver BiDi listening on ws://127.0.0.1:63865
+Read port: 63876
+1697639505282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63865/devtools/browser/f561e22d-f428-46f1-b310-997a42609352
+1697639507824	Marionette	INFO	Stopped listening on port 63876
+1697639571460	geckodriver	INFO	Listening on 127.0.0.1:64219
+1697639571895	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileNJTOXP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697639572166	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697639572355	Marionette	INFO	Listening on port 64231
+WebDriver BiDi listening on ws://127.0.0.1:64220
+Read port: 64231
+1697639572451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64220/devtools/browser/0f22d7dd-eb08-4683-b850-5e81b75ae882
+1697639574299	Marionette	INFO	Stopped listening on port 64231
+1697639638629	geckodriver	INFO	Listening on 127.0.0.1:64556
+1697639639075	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileJo8Ib9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697639639349	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697639639531	Marionette	INFO	Listening on port 64568
+WebDriver BiDi listening on ws://127.0.0.1:64557
+Read port: 64568
+1697639639632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64557/devtools/browser/6d381425-4029-4029-9b2a-73fe2f519348
+1697639641180	Marionette	INFO	Stopped listening on port 64568
+1697640027211	geckodriver	INFO	Listening on 127.0.0.1:49833
+1697640027231	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilei7FG9Q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640027526	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640027618	Marionette	INFO	Listening on port 49845
+WebDriver BiDi listening on ws://127.0.0.1:49834
+Read port: 49845
+1697640027724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49834/devtools/browser/b51171ee-b232-4507-9b0c-0f294fa7c8bd
+1697640029676	Marionette	INFO	Stopped listening on port 49845
+1697640034827	geckodriver	INFO	Listening on 127.0.0.1:49942
+1697640035257	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilerOtdKD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640035529	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640035704	Marionette	INFO	Listening on port 49954
+WebDriver BiDi listening on ws://127.0.0.1:49943
+Read port: 49954
+1697640035828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49943/devtools/browser/4ddd5ca8-bd9e-49cf-b23a-0d924fd6226c
+1697640037367	Marionette	INFO	Stopped listening on port 49954
+1697640044283	geckodriver	INFO	Listening on 127.0.0.1:50058
+1697640044718	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofile9vN7An"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640044989	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640045163	Marionette	INFO	Listening on port 50070
+WebDriver BiDi listening on ws://127.0.0.1:50059
+Read port: 50070
+1697640045288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:50059/devtools/browser/fbfcd35d-9bf8-4668-91db-6e985d96fe24
+1697640047877	Marionette	INFO	Stopped listening on port 50070
+1697640052681	geckodriver	INFO	Listening on 127.0.0.1:50175
+1697640053104	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofiletc5TjD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640053381	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640053555	Marionette	INFO	Listening on port 50187
+WebDriver BiDi listening on ws://127.0.0.1:50176
+Read port: 50187
+1697640053680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:50176/devtools/browser/5d7e76e6-21a7-49c6-8b9f-1d27e73b144c
+1697640055471	Marionette	INFO	Stopped listening on port 50187
+1697640061844	geckodriver	INFO	Listening on 127.0.0.1:50292
+1697640062274	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileGjnkJY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640062549	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640062722	Marionette	INFO	Listening on port 50304
+WebDriver BiDi listening on ws://127.0.0.1:50293
+Read port: 50304
+1697640062844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:50293/devtools/browser/0ded1c30-4e07-4b5a-a85a-4523f9e35491
+1697640064358	Marionette	INFO	Stopped listening on port 50304
+1697640221660	geckodriver	INFO	Listening on 127.0.0.1:51013
+1697640222086	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofile4YYpTd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640222365	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640222537	Marionette	INFO	Listening on port 51025
+WebDriver BiDi listening on ws://127.0.0.1:51014
+Read port: 51025
+1697640222660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51014/devtools/browser/2129c88e-7ca2-40b5-82da-38976f731db8
+1697640224048	Marionette	INFO	Stopped listening on port 51025
+1697640229422	geckodriver	INFO	Listening on 127.0.0.1:51108
+1697640229848	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofileDiXEKU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640230127	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640230301	Marionette	INFO	Listening on port 51120
+WebDriver BiDi listening on ws://127.0.0.1:51109
+Read port: 51120
+1697640230399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51109/devtools/browser/b43b9a3d-2603-4515-adc9-fc603b9960fe
+1697640231944	Marionette	INFO	Stopped listening on port 51120
+1697640239122	geckodriver	INFO	Listening on 127.0.0.1:51227
+1697640239550	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilemwAXxb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640239826	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640240000	Marionette	INFO	Listening on port 51239
+WebDriver BiDi listening on ws://127.0.0.1:51228
+Read port: 51239
+1697640240127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51228/devtools/browser/f5898194-fc29-4f35-b628-d24461539246
+1697640242654	Marionette	INFO	Stopped listening on port 51239
+1697640247541	geckodriver	INFO	Listening on 127.0.0.1:51342
+1697640247974	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofilekGqIVH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640248250	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640248423	Marionette	INFO	Listening on port 51354
+WebDriver BiDi listening on ws://127.0.0.1:51343
+Read port: 51354
+1697640248548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51343/devtools/browser/ab34c624-3c82-4e76-be1c-1b71d5c43454
+1697640250229	Marionette	INFO	Stopped listening on port 51354
+1697640255590	geckodriver	INFO	Listening on 127.0.0.1:51447
+1697640256020	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gs/nsrtptgx6_3bqfdvj7djn64m0000gn/T/rust_mozprofile1ln5WH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697640256294	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1697640256467	Marionette	INFO	Listening on port 51459
+WebDriver BiDi listening on ws://127.0.0.1:51448
+Read port: 51459
+1697640256593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51448/devtools/browser/df23464b-2018-4904-a1a0-dcd83be0f449
+1697640258126	Marionette	INFO	Stopped listening on port 51459
