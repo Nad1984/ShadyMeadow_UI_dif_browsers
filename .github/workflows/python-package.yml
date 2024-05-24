@@ -37,8 +37,15 @@ jobs:
       run: |
         pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
 
-#    - name: Serve allure report
-#      run: allure serve allure_results
+    - name: Serve allure report
+      run: allure serve allure_results
+
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: report
+        path: allure_results
+        retention-days: 30
 
     - name: Load test report history
       uses: actions/checkout@v4
