@@ -4,8 +4,8 @@
 name: Python package
 
 on: workflow_dispatch
-env:
-  alluredir: allure_results
+#env:
+#  alluredir: allure_results
 
 jobs:
   build:
@@ -35,8 +35,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-#           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
-          pytest --env="headlesschrome, headlessfirefox"
+        pytest --env="headlesschrome, headlessfirefox"
 
     - name: Load test report history
       uses: actions/checkout@v3
@@ -63,7 +62,7 @@ jobs:
           publish_dir: allure-history
 
 
-
+#           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
 #    - name: Serve allure report
 #      run: allure serve allure_results
 #
