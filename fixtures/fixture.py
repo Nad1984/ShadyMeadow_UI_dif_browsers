@@ -73,10 +73,10 @@ def pytest_runtest_makereport(item, call):
                 # import pdb; pdb.set_trace()
                 screenshot_path = os.path.join(results_dir, item.name + '.png')
                 driver_fixture = item.funcargs['request']
-                allure.attach(driver_fixture.cls.driver.get_screenshot_as_png(),
+                allure.attach(driver_fixture.cls.browser.get_screenshot_as_png(),
                               name='screenshot',
                               attachment_type=allure.attachment_type.PNG)
                 driver_fixture = item.funcargs['request']
-                allure.attach(driver_fixture.cls.driver.get_screenshot_as_png(),
+                allure.attach(driver_fixture.cls.browser.get_screenshot_as_png(),
                               name='screenshot',
                               attachment_type=allure.attachment_type.PNG)
