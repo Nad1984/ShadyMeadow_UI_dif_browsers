@@ -76,7 +76,5 @@ def pytest_runtest_makereport(item, call):
                 allure.attach(driver_fixture.cls.browser.get_screenshot_as_png(),
                               name='screenshot',
                               attachment_type=allure.attachment_type.PNG)
-                driver_fixture = item.funcargs['request']
-                allure.attach(driver_fixture.cls.browser.get_screenshot_as_png(),
-                              name='screenshot',
-                              attachment_type=allure.attachment_type.PNG)
+
+
