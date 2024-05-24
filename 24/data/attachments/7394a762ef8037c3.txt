@@ -1,0 +1,3 @@
+
+        Check that the "Shady Meadows B&B" (rbp-logo.png) image appears at the Main page in the correct position.
+        
