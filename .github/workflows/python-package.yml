@@ -35,14 +35,41 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
-    
-    - name: Serve allure report
-      run: allure serve allure_results
-    
-    - uses: actions/upload-artifact@v4
+#           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
+          pytest --env="headlesschrome, headlessfirefox"
+
+    - name: Load test report history
+      uses: actions/checkout@v3
+      if: always()
+      continue-on-error: true
+      with:
+          ref: main
+          path: allure_results
+
+    - name: Build test report
+      uses: simple-elf/allure-report-action@v1.7
       if: always()
       with:
-        name: report
-        path: allure_results
-        retention-days: 30
+          gh_pages: allure_results
+          allure_history: allure-history
+          allure_results: build/allure-results
+
+    - name: Publish test report
+      uses: peaceiris/actions-gh-pages@v3
+      if: always()
+      with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
+          publish_dir: allure-history
+
+
+
+#    - name: Serve allure report
+#      run: allure serve allure_results
+#
+#    - uses: actions/upload-artifact@v4
+#      if: always()
+#      with:
+#        name: report
+#        path: allure_results
+#        retention-days: 30
