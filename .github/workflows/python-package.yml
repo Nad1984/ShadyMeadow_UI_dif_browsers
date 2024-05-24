@@ -5,7 +5,7 @@ name: Run tests and publish report
 
 on: [push]
 env:
-  alluredir: allure_results
+  alluredir: ./allure_results
 
 jobs:
   build:
@@ -33,44 +33,58 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Prepare Allure history # Step to prepare Allure history directory
+      run: |
+        cd ..
+        mkdir -p ${{ vars.ALLURE_RESULTS_PATH }}
+
     - name: Test with pytest
       run: |
-        pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
+        pytest --env="headlesschrome, headlessfirefox" --alluredir=../${{ vars.ALLURE_RESULTS_PATH }}
 
-    - name: Serve allure report
-      run: allure serve allure_results
-
-    - uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: report
-        path: allure_results
-        retention-days: 30
-
-    - name: Load test report history
+    - name: Get Allure history # Step to retrieve Allure history
       uses: actions/checkout@v4
-      if: always()
-      continue-on-error: true
+      if: always() # Execute even if previous steps fail
+      continue-on-error: true # Continue execution even if the step fails
       with:
-          ref: my_gh_pages
-          path: allure-previous-data
+        ref: my_gh_pages # Specify the branch to retrieve Allure history from
+        path: my_gh_pages # Set the destination path for Allure history
 
-    - name: Build test report
-      uses: simple-elf/allure-report-action@v1.7
-      if: always()
+    - name: Allure report action # Step to generate Allure report
+      uses: simple-elf/allure-report-action@master
+      if: always() # Execute even if previous steps fail
       with:
-          gh_pages: allure-previous-data
-          allure_results: allure-results
-          allure_history: allure-history-all
+        allure_results: ${{ vars.ALLURE_RESULTS_PATH }} # Specify the directory containing Allure results
+        allure_history: allure-history # Specify the directory to store Allure history
+        keep_reports: 5 # Specify the number of previous reports to keep
 
-
-    - name: Publish test report
+    - name: Deploy Allure report to GitHub Pages # Step to deploy Allure report to GitHub Pages
+      if: always() # Execute even if previous steps fail
       uses: peaceiris/actions-gh-pages@v4
-      if: always()
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: my_gh_pages
-          publish_dir: allure-history-all
+        github_token: ${{ secrets.GITHUB_TOKEN }} # Provide the GitHub token for authentication
+        publish_branch: my_gh_pages # Specify the branch to publish the report to
+        publish_dir: allure-history # Specify the directory containing the report
+
+
+
+#    - name: Build test report
+#      uses: simple-elf/allure-report-action@v1.7
+#      if: always()
+#      with:
+#          gh_pages: allure-previous-data
+#          allure_results: allure-results
+#          allure_history: allure-history-all
+#
+#
+#    - name: Publish test report
+#      uses: peaceiris/actions-gh-pages@v4
+#      if: always()
+#      with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_branch: my_gh_pages
+#          publish_dir: allure-history-all
 
 
 #           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
