@@ -4,8 +4,8 @@
 name: Python package
 
 on: workflow_dispatch
-env:
-  RESULTS_DIR: ${HOME}/tmp/tmp_allure_dir_1
+#env:
+#  RESULTS_DIR: allure_results
 
 jobs:
   build:
@@ -35,14 +35,14 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-           pytest --alluredir=${HOME}/tmp/tmp_allure_dir_1 --env="headlesschrome, headlessfirefox"
+           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
     
     - name: Serve allure report
-      run: allure serve ${HOME}/tmp/tmp_allure_dir_1                                              
+      run: allure serve allure_results
     
     - uses: actions/upload-artifact@v4
       if: always()
       with:
         name: report
-        path: ${HOME}/tmp/tmp_allure_dir_1
+        path: allure_results
         retention-days: 30
