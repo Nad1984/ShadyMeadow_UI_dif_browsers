@@ -1,0 +1,74 @@
+# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Run tests and publish report
+
+on: [push]
+#env:
+#  alluredir: allure_results
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: browser-actions/setup-chrome@v1
+    - run: chrome --version
+    - uses: browser-actions/setup-firefox@v1
+    - run: firefox --version
+    - name: Set up Python 
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Test with pytest
+      run: |
+        pytest --env="headlesschrome, headlessfirefox"
+
+    - name: Load test report history
+      uses: actions/checkout@v4
+      if: always()
+      continue-on-error: true
+      with:
+          ref: my_gh_pages
+          path: allure_results
+
+    - name: Build test report
+      uses: simple-elf/allure-report-action@v1.7
+      if: always()
+      with:
+          gh_pages: allure_results
+          allure_history: allure-history
+          allure_results: build/allure-results
+
+    - name: Publish test report
+      uses: peaceiris/actions-gh-pages@v4
+      if: always()
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: my_gh_pages
+          publish_dir: allure-history
+
+
+#           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
+#    - name: Serve allure report
+#      run: allure serve allure_results
+#
+#    - uses: actions/upload-artifact@v4
+#      if: always()
+#      with:
+#        name: report
+#        path: allure_results
+#        retention-days: 30
