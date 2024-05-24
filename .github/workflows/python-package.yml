@@ -4,8 +4,8 @@
 name: Run tests and publish report
 
 on: [push]
-#env:
-#  alluredir: allure_results
+env:
+  alluredir: allure_results
 
 jobs:
   build:
