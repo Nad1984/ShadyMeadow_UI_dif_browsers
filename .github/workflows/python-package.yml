@@ -48,6 +48,7 @@ jobs:
 
     - name: Prepare Allure history # Step to prepare Allure history directory
       run: |
+        cd ..
         mkdir -p ${{ vars.ALLURE_RESULTS_PATH }}
 
     - name: Test with pytest
