@@ -4,6 +4,9 @@ from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from _pytest.fixtures import fixture
 from page_object.main_page import ShadyMeadowsPageObject
+from selenium.webdriver.chrome.options import Options as ChOptions
+from selenium.webdriver.firefox.options import Options as FFOptions
+from selenium import webdriver
 
 
 def pytest_addoption(parser):
@@ -15,6 +18,18 @@ def get_browser(browser_name):
         return Firefox(executable_path=GeckoDriverManager().install())
     elif browser_name == "chrome":
         return Chrome(executable_path=ChromeDriverManager().install())
+    elif browser_name == "headlesschrome":
+        chrome_options = ChOptions()
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--headless')
+        return webdriver.Chrome(options=chrome_options)
+    elif browser_name == "headlessfirefox":
+        firefox_options = FFOptions()
+        firefox_options.add_argument('--disable-gpu')
+        firefox_options.add_argument('--no-sandbox')
+        firefox_options.add_argument('--headless')
+        return webdriver.Chrome(options=firefox_options)
     elif browser_name == "edge":
         return Edge(executable_path=EdgeChromiumDriverManager().install())
     else:
