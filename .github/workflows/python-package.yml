@@ -12,7 +12,8 @@ on:
         default: "smoke"
 
 env:
-  alluredir: ./${{ vars.ALLURE_RESULTS_PATH }}
+#  alluredir: ./${{ vars.ALLURE_RESULTS_PATH }}
+  RESULTS_DIR: allure_results
 
 jobs:
   build:
@@ -46,13 +47,10 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
-#    - name: Prepare Allure history # Step to prepare Allure history directory
-#      run: |
-#        mkdir ${{ vars.ALLURE_RESULTS_PATH }}
-
     - name: Test with pytest
       run: |
-        pytest --alluredir=./${{ vars.ALLURE_RESULTS_PATH }} --env="headlesschrome, headlessfirefox"
+        pytest --alluredir allure_results --env="headlesschrome, headlessfirefox"
+        allure serve allure_results
 
     - name: Get Allure history # Step to retrieve Allure history
       uses: actions/checkout@v4
@@ -66,7 +64,7 @@ jobs:
       uses: simple-elf/allure-report-action@master
       if: always() # Execute even if previous steps fail
       with:
-        allure_results: ${{ vars.ALLURE_RESULTS_PATH }} # Specify the directory containing Allure results
+        allure_results: allure_results # Specify the directory containing Allure results
         allure_history: allure-history # Specify the directory to store Allure history
         keep_reports: 5 # Specify the number of previous reports to keep
 

@@ -1,3 +1,6 @@
+import pytest
+import allure
+import os
 from selenium.webdriver import Chrome, Firefox, Edge
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
@@ -42,7 +45,7 @@ def pytest_generate_tests(metafunc):
         metafunc.parametrize("shady_meadow_page", browsers, indirect=True)
 
 
-@fixture
+@pytest.fixture(scope="class")
 def shady_meadow_page(request, custom_logger):
     browser_name = request.param
     browser = get_browser(browser_name)
@@ -50,3 +53,30 @@ def shady_meadow_page(request, custom_logger):
     yield ShadyMeadowsPageObject(browser, custom_logger).open()
 
     browser.quit()
+
+
+### FOR ALLURE report
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    report = outcome.get_result()
+    if report.when == "call":
+        xfail = hasattr(report, "wasxfail")
+        if (report.skipped and xfail) or (report.failed and not xfail):
+
+            is_frontend_test = True if 'shady_meadow_page' in item.fixturenames else False
+            if is_frontend_test:
+
+                results_dir = os.environ.get("RESULTS_DIR")
+                if not results_dir:
+                    raise Exception(f"Environment variable 'RESULTS_DIR' must be set.")
+                # import pdb; pdb.set_trace()
+                screenshot_path = os.path.join(results_dir, item.name + '.png')
+                driver_fixture = item.funcargs['request']
+                allure.attach(driver_fixture.cls.driver.get_screenshot_as_png(),
+                              name='screenshot',
+                              attachment_type=allure.attachment_type.PNG)
+                driver_fixture = item.funcargs['request']
+                allure.attach(driver_fixture.cls.driver.get_screenshot_as_png(),
+                              name='screenshot',
+                              attachment_type=allure.attachment_type.PNG)
