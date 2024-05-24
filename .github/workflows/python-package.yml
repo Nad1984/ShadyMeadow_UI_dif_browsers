@@ -36,7 +36,9 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
-        
+
+    - name: Serve allure report
+      run: allure serve allure_results
 
     - name: Load test report history
       uses: actions/checkout@v4
