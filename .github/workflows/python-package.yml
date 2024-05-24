@@ -12,7 +12,7 @@ on:
         default: "smoke"
 
 env:
-  alluredir: ${{ vars.ALLURE_RESULTS_PATH }}
+  alluredir: ./${{ vars.ALLURE_RESULTS_PATH }}
 
 jobs:
   build:
@@ -52,7 +52,7 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest -v --gherkin-terminal-reporter -s --color=yes --alluredir=../${{ vars.ALLURE_RESULTS_PATH }} --env="headlesschrome, headlessfirefox"
+        pytest --alluredir=./${{ vars.ALLURE_RESULTS_PATH }} --env="headlesschrome, headlessfirefox"
 
     - name: Get Allure history # Step to retrieve Allure history
       uses: actions/checkout@v4
