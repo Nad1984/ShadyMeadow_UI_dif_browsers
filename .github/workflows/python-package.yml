@@ -12,7 +12,6 @@ on:
         default: "smoke"
 
 env:
-#  alluredir: ./${{ vars.ALLURE_RESULTS_PATH }}
   RESULTS_DIR: allure_results
 
 jobs:
@@ -78,31 +77,3 @@ jobs:
 
 
 
-#    - name: Build test report
-#      uses: simple-elf/allure-report-action@v1.7
-#      if: always()
-#      with:
-#          gh_pages: allure-previous-data
-#          allure_results: allure-results
-#          allure_history: allure-history-all
-#
-#
-#    - name: Publish test report
-#      uses: peaceiris/actions-gh-pages@v4
-#      if: always()
-#      with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          publish_branch: my_gh_pages
-#          publish_dir: allure-history-all
-
-
-#           pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
-#    - name: Serve allure report
-#      run: allure serve allure_results
-#
-#    - uses: actions/upload-artifact@v4
-#      if: always()
-#      with:
-#        name: report
-#        path: allure_results
-#        retention-days: 30

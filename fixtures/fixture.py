@@ -45,7 +45,7 @@ def pytest_generate_tests(metafunc):
         metafunc.parametrize("shady_meadow_page", browsers, indirect=True)
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture
 def shady_meadow_page(request, custom_logger):
     browser_name = request.param
     browser = get_browser(browser_name)
