@@ -35,7 +35,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --env="headlesschrome, headlessfirefox"
+        pytest --alluredir=allure_results --env="headlesschrome, headlessfirefox"
+        
 
     - name: Load test report history
       uses: actions/checkout@v4
