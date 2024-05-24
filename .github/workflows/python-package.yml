@@ -4,8 +4,8 @@
 name: Python package
 
 on: workflow_dispatch
-#env:
-#  RESULTS_DIR: allure_results
+env:
+  RESULTS_DIR: allure_results
 
 jobs:
   build:
