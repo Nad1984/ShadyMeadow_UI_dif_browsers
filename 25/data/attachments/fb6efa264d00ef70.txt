@@ -1,0 +1,6 @@
+2024-05-24 21:47:15,717 == 2160 == test_book_this_room_button == INFO: Navigating to the environmental URL: https://automationintesting.online/
+2024-05-24 21:47:16,825 == 2160 == test_book_this_room_button == INFO: Search for 'Book_this_room_button'.
+2024-05-24 21:47:16,826 == 2160 == test_book_this_room_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
+2024-05-24 21:47:16,850 == 2160 == test_book_this_room_button == INFO: Search for 'Book_this_room_button'.
+2024-05-24 21:47:16,851 == 2160 == test_book_this_room_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
+2024-05-24 21:47:16,853 == 2160 == test_book_this_room_button == INFO: Move to Book_this_room button in rooms block.
