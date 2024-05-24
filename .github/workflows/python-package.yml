@@ -3,14 +3,26 @@
 
 name: Run tests and publish report
 
-on: [push]
-env:
-  alluredir: ./allure_results
+on:
+  workflow_dispatch: # Trigger the workflow manually
+    inputs:
+      tags: # Input parameter for test scenario tags
+        description: "Test scenario tags"
+        required: true
+        default: "smoke"
+
+#env:
+#  alluredir: ./allure_results
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash # Set the shell for the job
+        working-directory: ./tests # Set the working directory for the job
 
     steps:
     - uses: actions/checkout@v4
@@ -36,7 +48,6 @@ jobs:
 
     - name: Prepare Allure history # Step to prepare Allure history directory
       run: |
-        cd ..
         mkdir -p ${{ vars.ALLURE_RESULTS_PATH }}
 
     - name: Test with pytest
