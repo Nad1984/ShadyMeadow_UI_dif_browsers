@@ -51,6 +51,7 @@ def shady_meadow_page(request, custom_logger):
     browser_name = request.param
     browser = get_browser(browser_name)
     browser.maximize_window()
+    request.cls.driver = browser
     yield ShadyMeadowsPageObject(browser, custom_logger).open()
 
     browser.quit()
