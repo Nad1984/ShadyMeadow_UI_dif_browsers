@@ -11,10 +11,6 @@ class TestShadyMeadows:
 
     @title("Check that the 'Shady Meadows B&B' (rbp-logo.png) image appears at the Main page in the correct position.")
     @description("In this test first I click on 'Let me hack' button, that's why location_y has changed from 687 to 0.")
-    @epic("NN-84")
-    @feature("Logo picture")
-    @story("AB-123")
-    @testcase("https://music.youtube.com/watch?v=iU8rgEBi9OI&list=LM", name="Test ID 001")
     @severity(allure.severity_level.CRITICAL)
     @pytest.mark.logo_picture
     @pytest.mark.shady_meadow_ui
@@ -35,10 +31,6 @@ class TestShadyMeadows:
     @title("'Book this room' button.")
     @description('Check that the “Book this Room” button is visible at the Main page, after clicking this button '
                  'it disappears from the page and cannot be clicked anymore.')
-    @epic("NN-84")
-    @feature("Booking the room")
-    @story("AB-123")
-    @testcase("https://music.youtube.com/watch?v=iU8rgEBi9OI&list=LM", "Test ID 002")
     @severity(allure.severity_level.CRITICAL)
     @pytest.mark.booking_the_room
     @pytest.mark.shady_meadow_ui
@@ -56,10 +48,6 @@ class TestShadyMeadows:
     @description('Check that clicking the“Cancel” button under the Calendar block, which contains Calendar itself, '
                  '“First Name”, “Last Name”, “Email”, “Phone” fields, “Book” and “Cancel” buttons, is hiding this '
                  'entire block including fields and buttons.')
-    @epic("NN-84")
-    @feature("Booking the room")
-    @story("AB-123")
-    @testcase("https://testrail.sometest.com/case-004", name="Test ID 004")
     @severity(allure.severity_level.CRITICAL)
     @pytest.mark.booking_the_room
     @pytest.mark.shady_meadow_ui
@@ -87,10 +75,6 @@ class TestShadyMeadows:
     @description('Check that “row-contact” block under “Rooms” block, which contains “First Name”, “Last Name”, '
                  '“Email”, “Phone”, “Message” fields and “Submit” button are still displayed at the Main page after '
                  '“Book this Room” button was clicked.')
-    @epic("NN-84")
-    @feature("Contact block")
-    @story("AB-124")
-    @testcase("https://testrail.sometest.com/case-006", name="Test ID 006")
     @severity(allure.severity_level.CRITICAL)
     @pytest.mark.contact_block
     @pytest.mark.shady_meadow_ui
@@ -115,10 +99,6 @@ class TestShadyMeadows:
     @title("'Contact' block 'Submit' button.")
     # @description('Check that the “Submit” button is visible and clickable at the Main page.')
     @description_html("<b>Check that the “Submit” button is visible and clickable at the Main page.</b>")
-    @epic("NN-84")
-    @feature("Contact block")
-    @story("AB-124")
-    @testcase("https://testrail.sometest.com/case-007", name="Test ID 007")
     @severity(allure.severity_level.CRITICAL)
     @pytest.mark.contact_block
     @pytest.mark.shady_meadow_ui
