@@ -1,6 +1,0 @@
-2024-05-25 13:21:07,242 == 2324 == test_logo_picture_is_visible == INFO: Navigating to the environmental URL: https://automationintesting.online/
-2024-05-25 13:21:08,083 == 2324 == test_logo_picture_is_visible == INFO: Waiting for 'Let me hack' button clickable
-2024-05-25 13:21:08,083 == 2324 == test_logo_picture_is_visible == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-primary
-2024-05-25 13:21:08,125 == 2324 == test_logo_picture_is_visible == INFO: Move to'Let me hack' button and click on it
-2024-05-25 13:21:08,469 == 2324 == test_logo_picture_is_visible == INFO: Getting 'LOGO' picture
-2024-05-25 13:21:08,469 == 2324 == test_logo_picture_is_visible == DEBUG: Searching web element by strategy class name and locator hotel-logoUrl
