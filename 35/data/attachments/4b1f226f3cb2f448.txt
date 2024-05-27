@@ -1,0 +1,3 @@
+2024-05-27 19:30:07,461 == 2269 == test_book_this_room_button == INFO: Navigating to the environmental URL: https://automationintesting.online/
+2024-05-27 19:31:07,836 == 2269 == test_book_this_room_button == INFO: Search for 'Book_this_room_button'.
+2024-05-27 19:31:07,836 == 2269 == test_book_this_room_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking

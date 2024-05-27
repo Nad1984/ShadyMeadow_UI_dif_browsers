@@ -1,4 +1,0 @@
-2024-05-27 18:59:26,435 == 2178 == test_rooms_block_cancel_button == INFO: Navigating to the environmental URL: https://automationintesting.online/
-2024-05-27 19:00:26,885 == 2178 == test_rooms_block_cancel_button == INFO: Click on Book_this_room button.
-2024-05-27 19:00:26,885 == 2178 == test_rooms_block_cancel_button == INFO: Search for 'Book_this_room_button'.
-2024-05-27 19:00:26,885 == 2178 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
