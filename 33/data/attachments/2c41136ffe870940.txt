@@ -1,6 +1,0 @@
-INFO     test_contact_block_submit_button_is_visible_and_clickable:main_page.py:45 Navigating to the environmental URL: https://automationintesting.online/
-INFO     test_contact_block_submit_button_is_visible_and_clickable:main_page.py:323 Searching for contact_block 'Submit_button'.
-DEBUG    test_contact_block_submit_button_is_visible_and_clickable:main_page.py:324 Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
-INFO     test_contact_block_submit_button_is_visible_and_clickable:main_page.py:323 Searching for contact_block 'Submit_button'.
-DEBUG    test_contact_block_submit_button_is_visible_and_clickable:main_page.py:324 Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
-INFO     test_contact_block_submit_button_is_visible_and_clickable:main_page.py:350 Move to contact_block 'Submit_button'.

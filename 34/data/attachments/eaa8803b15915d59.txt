@@ -1,0 +1,3 @@
+INFO     test_logo_picture_is_visible:main_page.py:45 Navigating to the environmental URL: https://automationintesting.online/
+INFO     test_logo_picture_is_visible:main_page.py:54 Waiting for 'Let me hack' button clickable
+DEBUG    test_logo_picture_is_visible:main_page.py:55 Searching web element by strategy css selector and locator button.btn.btn-primary

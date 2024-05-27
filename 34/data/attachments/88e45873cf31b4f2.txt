@@ -1,0 +1,4 @@
+INFO     test_rooms_block_cancel_button:main_page.py:45 Navigating to the environmental URL: https://automationintesting.online/
+INFO     test_rooms_block_cancel_button:main_page.py:369 Click on Book_this_room button.
+INFO     test_rooms_block_cancel_button:main_page.py:88 Search for 'Book_this_room_button'.
+DEBUG    test_rooms_block_cancel_button:main_page.py:89 Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
