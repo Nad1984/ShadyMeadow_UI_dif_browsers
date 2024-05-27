@@ -45,7 +45,7 @@ def pytest_generate_tests(metafunc):
         metafunc.parametrize("shady_meadow_page", browsers, indirect=True)
 
 
-@pytest.fixture
+@pytest.fixture()
 def shady_meadow_page(request, custom_logger):
     global browser
     browser_name = request.param
@@ -57,27 +57,42 @@ def shady_meadow_page(request, custom_logger):
     browser.quit()
 
 
-
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
     rep = outcome.get_result()
-    if rep.when == 'call' and rep.failed:
-        mode = 'a' if os.path.exists('failures') else 'w'
-        try:
-            with open('failures', mode) as f:
-                if 'browser' in item.fixturenames:
-                    web_driver = item.funcargs['browser']
-                else:
-                    print('Fail to take screen-shot')
-                    return
-            allure.attach(
-                web_driver.get_screenshot_as_png(),
-                name='screenshot',
-                attachment_type=allure.attachment_type.PNG
-            )
-        except Exception as e:
-            print('Fail to take screen-shot: {}'.format(e))
+    setattr(item, "rep_" + rep.when, rep)
+    return rep
+
+
+@pytest.fixture()
+def log_on_failure(request):
+    yield
+    item = request.node
+    if item.rep_call.failed:
+        allure.attach(browser.get_screenshot_as_png(), name='screenshot', attachment_type=allure.attachment_type.PNG)
+
+
+# @pytest.hookimpl(tryfirst=True, hookwrapper=True)
+# def pytest_runtest_makereport(item, call):
+#     outcome = yield
+#     rep = outcome.get_result()
+#     if rep.when == 'call' and rep.failed:
+#         mode = 'a' if os.path.exists('failures') else 'w'
+#         try:
+#             with open('failures', mode) as f:
+#                 if 'browser' in item.fixturenames:
+#                     web_driver = item.funcargs['browser']
+#                 else:
+#                     print('Fail to take screen-shot')
+#                     return
+#             allure.attach(
+#                 web_driver.get_screenshot_as_png(),
+#                 name='screenshot',
+#                 attachment_type=allure.attachment_type.PNG
+#             )
+#         except Exception as e:
+#             print('Fail to take screen-shot: {}'.format(e))
 
 ### FOR ALLURE report
 # @pytest.hookimpl(hookwrapper=True)

@@ -5,6 +5,8 @@ from page_object.main_page import ShadyMeadowsPageObject
 from allure import attach, attachment_type, title, description, description_html, suite, severity, testcase, story, \
     feature, epic
 
+pytest.mark.usefixtures("log_on_failure")
+
 
 @suite("Shady Meadows B&B UI")
 class TestShadyMeadows:
