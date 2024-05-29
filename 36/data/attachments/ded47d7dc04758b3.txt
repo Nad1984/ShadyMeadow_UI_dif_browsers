@@ -1,0 +1,27 @@
+INFO     test_rooms_block_cancel_button:main_page.py:45 Navigating to the environmental URL: https://automationintesting.online/
+INFO     test_rooms_block_cancel_button:main_page.py:335 Click on Book_this_room button.
+INFO     test_rooms_block_cancel_button:main_page.py:86 Search for 'Book_this_room_button'.
+DEBUG    test_rooms_block_cancel_button:main_page.py:87 Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
+INFO     test_rooms_block_cancel_button:main_page.py:101 Searching for 'rooms_block'.
+DEBUG    test_rooms_block_cancel_button:main_page.py:102 Searching web element by strategy css selector and locator div.row.hotel-room-info
+INFO     test_rooms_block_cancel_button:main_page.py:111 Move to 'rooms_block
+INFO     test_rooms_block_cancel_button:main_page.py:190 Searching for rooms_block 'Cancel' button.
+DEBUG    test_rooms_block_cancel_button:main_page.py:191 Searching web element by strategy css selector and locator button.btn.btn-outline-danger.float-right.book-room
+INFO     test_rooms_block_cancel_button:main_page.py:206 Searching for rooms_block 'Book' button.
+DEBUG    test_rooms_block_cancel_button:main_page.py:207 Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.book-room
+INFO     test_rooms_block_cancel_button:main_page.py:120 Searching for rooms_block calendar.
+DEBUG    test_rooms_block_cancel_button:main_page.py:121 Searching web element by strategy css selector and locator div.rbc-calendar
+INFO     test_rooms_block_cancel_button:main_page.py:134 Searching for rooms_block 'First name' field.
+DEBUG    test_rooms_block_cancel_button:main_page.py:135 Searching web element by strategy css selector and locator input.form-control.room-firstname
+INFO     test_rooms_block_cancel_button:main_page.py:148 Searching for rooms_block 'Last name' field.
+DEBUG    test_rooms_block_cancel_button:main_page.py:149 Searching web element by strategy css selector and locator input.form-control.room-lastname
+INFO     test_rooms_block_cancel_button:main_page.py:162 Searching for rooms_block 'Email' field.
+DEBUG    test_rooms_block_cancel_button:main_page.py:163 Searching web element by strategy css selector and locator input.form-control.room-email
+INFO     test_rooms_block_cancel_button:main_page.py:176 Searching for rooms_block 'Phone' field.
+DEBUG    test_rooms_block_cancel_button:main_page.py:177 Searching web element by strategy css selector and locator input.form-control.room-phone
+INFO     test_rooms_block_cancel_button:main_page.py:190 Searching for rooms_block 'Cancel' button.
+DEBUG    test_rooms_block_cancel_button:main_page.py:191 Searching web element by strategy css selector and locator button.btn.btn-outline-danger.float-right.book-room
+INFO     test_rooms_block_cancel_button:main_page.py:342 Move to 'Cancel' button in rooms block.
+INFO     test_rooms_block_cancel_button:main_page.py:344 Click on 'Cancel' button in rooms block.
+INFO     test_rooms_block_cancel_button:main_page.py:190 Searching for rooms_block 'Cancel' button.
+DEBUG    test_rooms_block_cancel_button:main_page.py:191 Searching web element by strategy css selector and locator button.btn.btn-outline-danger.float-right.book-room

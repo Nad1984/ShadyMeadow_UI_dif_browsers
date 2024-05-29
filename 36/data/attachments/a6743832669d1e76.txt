@@ -1,0 +1,19 @@
+2024-05-29 20:32:41,424 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Navigating to the environmental URL: https://automationintesting.online/
+2024-05-29 20:32:41,909 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Click on Book_this_room button.
+2024-05-29 20:32:41,909 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Search for 'Book_this_room_button'.
+2024-05-29 20:32:41,909 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
+2024-05-29 20:32:42,496 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for contact_block 'Submit_button'.
+2024-05-29 20:32:42,496 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
+2024-05-29 20:32:42,513 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Move to contact_block 'Submit_button'.
+2024-05-29 20:32:42,772 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for 'Name' field in contact block.
+2024-05-29 20:32:42,772 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator input#name.form-control
+2024-05-29 20:32:42,790 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for 'Email' field in contact block.
+2024-05-29 20:32:42,790 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator input#email.form-control
+2024-05-29 20:32:42,805 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for contact_block 'Phone' field.
+2024-05-29 20:32:42,805 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator input#phone.form-control
+2024-05-29 20:32:42,820 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for contact_block 'Subject' field.
+2024-05-29 20:32:42,820 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator input#subject.form-control
+2024-05-29 20:32:42,835 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for contact_block 'Message' field.
+2024-05-29 20:32:42,835 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator textarea#description.form-control
+2024-05-29 20:32:42,851 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for contact_block 'Submit_button'.
+2024-05-29 20:32:42,851 == 2208 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right

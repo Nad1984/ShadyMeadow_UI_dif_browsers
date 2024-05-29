@@ -1,3 +1,0 @@
-2024-05-27 19:27:27,337 == 2269 == test_logo_picture_is_visible == INFO: Navigating to the environmental URL: https://automationintesting.online/
-2024-05-27 19:28:28,025 == 2269 == test_logo_picture_is_visible == INFO: Waiting for 'Let me hack' button clickable
-2024-05-27 19:28:28,025 == 2269 == test_logo_picture_is_visible == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-primary

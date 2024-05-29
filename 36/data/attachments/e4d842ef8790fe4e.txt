@@ -1,0 +1,7 @@
+INFO     test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:45 Navigating to the environmental URL: https://automationintesting.online/
+INFO     test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:335 Click on Book_this_room button.
+INFO     test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:86 Search for 'Book_this_room_button'.
+DEBUG    test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:87 Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
+INFO     test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:297 Searching for contact_block 'Submit_button'.
+DEBUG    test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:298 Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
+INFO     test_contact_block_visibility_if_book_this_room_button_was_clicked:main_page.py:313 Move to contact_block 'Submit_button'.

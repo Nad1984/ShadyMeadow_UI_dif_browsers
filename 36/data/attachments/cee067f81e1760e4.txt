@@ -1,0 +1,24 @@
+2024-05-29 20:32:38,588 == 2208 == test_rooms_block_cancel_button == INFO: Navigating to the environmental URL: https://automationintesting.online/
+2024-05-29 20:32:39,822 == 2208 == test_rooms_block_cancel_button == INFO: Click on Book_this_room button.
+2024-05-29 20:32:39,823 == 2208 == test_rooms_block_cancel_button == INFO: Search for 'Book_this_room_button'.
+2024-05-29 20:32:39,823 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
+2024-05-29 20:32:40,094 == 2208 == test_rooms_block_cancel_button == INFO: Searching for 'rooms_block'.
+2024-05-29 20:32:40,095 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator div.row.hotel-room-info
+2024-05-29 20:32:40,165 == 2208 == test_rooms_block_cancel_button == INFO: Move to 'rooms_block
+2024-05-29 20:32:40,439 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'Cancel' button.
+2024-05-29 20:32:40,440 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-danger.float-right.book-room
+2024-05-29 20:32:40,448 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'Book' button.
+2024-05-29 20:32:40,449 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.book-room
+2024-05-29 20:32:40,458 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block calendar.
+2024-05-29 20:32:40,459 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator div.rbc-calendar
+2024-05-29 20:32:40,472 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'First name' field.
+2024-05-29 20:32:40,472 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator input.form-control.room-firstname
+2024-05-29 20:32:40,480 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'Last name' field.
+2024-05-29 20:32:40,481 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator input.form-control.room-lastname
+2024-05-29 20:32:40,491 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'Email' field.
+2024-05-29 20:32:40,492 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator input.form-control.room-email
+2024-05-29 20:32:40,499 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'Phone' field.
+2024-05-29 20:32:40,500 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator input.form-control.room-phone
+2024-05-29 20:32:40,507 == 2208 == test_rooms_block_cancel_button == INFO: Searching for rooms_block 'Cancel' button.
+2024-05-29 20:32:40,508 == 2208 == test_rooms_block_cancel_button == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-danger.float-right.book-room
+2024-05-29 20:32:40,515 == 2208 == test_rooms_block_cancel_button == INFO: Move to 'Cancel' button in rooms block.
