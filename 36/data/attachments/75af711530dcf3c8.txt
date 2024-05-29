@@ -1,6 +1,0 @@
-2024-05-29 20:32:49,753 == 2208 == test_contact_block_submit_button_is_visible_and_clickable == INFO: Navigating to the environmental URL: https://automationintesting.online/
-2024-05-29 20:32:51,073 == 2208 == test_contact_block_submit_button_is_visible_and_clickable == INFO: Searching for contact_block 'Submit_button'.
-2024-05-29 20:32:51,074 == 2208 == test_contact_block_submit_button_is_visible_and_clickable == DEBUG: Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
-2024-05-29 20:32:51,108 == 2208 == test_contact_block_submit_button_is_visible_and_clickable == INFO: Searching for contact_block 'Submit_button'.
-2024-05-29 20:32:51,109 == 2208 == test_contact_block_submit_button_is_visible_and_clickable == DEBUG: Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
-2024-05-29 20:32:51,117 == 2208 == test_contact_block_submit_button_is_visible_and_clickable == INFO: Move to contact_block 'Submit_button'.
