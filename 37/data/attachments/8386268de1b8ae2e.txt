@@ -1,7 +1,0 @@
-2024-05-29 20:41:32,914 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Navigating to the environmental URL: https://automationintesting.online/
-2024-05-29 20:41:33,991 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Click on Book_this_room button.
-2024-05-29 20:41:33,992 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Search for 'Book_this_room_button'.
-2024-05-29 20:41:33,992 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
-2024-05-29 20:41:34,270 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Searching for contact_block 'Submit_button'.
-2024-05-29 20:41:34,271 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator button#submitContact.btn.btn-outline-primary.float-right
-2024-05-29 20:41:34,283 == 2198 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Move to contact_block 'Submit_button'.
