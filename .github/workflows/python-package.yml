@@ -49,7 +49,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir allure_results --env="headlesschrome, headlessfirefox"
-#        allure serve allure_results
+        allure serve allure_results
 
     - name: Get Allure history # Step to retrieve Allure history
       uses: actions/checkout@v4
