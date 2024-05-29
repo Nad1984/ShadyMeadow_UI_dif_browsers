@@ -65,12 +65,7 @@ def pytest_runtest_makereport(item, call):
     if rep.when == 'call' and rep.failed:
         mode = 'a' if os.path.exists('failures') else 'w'
         try:
-            with open('failures', mode) as f:
-                if 'browser' in item.fixturenames:
-                    web_driver = item.funcargs['browser']
-                else:
-                    print('Fail to take screen-shot')
-                    return
+            web_driver = browser
             allure.attach(
                 web_driver.get_screenshot_as_png(),
                 name='screenshot',
@@ -78,6 +73,8 @@ def pytest_runtest_makereport(item, call):
             )
         except Exception as e:
             print('Fail to take screen-shot: {}'.format(e))
+
+
 
 ### FOR ALLURE report
 # @pytest.hookimpl(hookwrapper=True)

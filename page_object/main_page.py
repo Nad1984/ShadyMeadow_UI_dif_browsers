@@ -44,8 +44,6 @@ class ShadyMeadowsPageObject:
         with step(f"Navigating to the environmental URL:{url}"):
             self.logger.info(f"Navigating to the environmental URL: {url}")
             self.web_driver.get(url)
-            attach(self.__web_driver.get_screenshot_as_png(), name="Navigating to the environmental URL",
-                   attachment_type=attachment_type.PNG)
             return self
 
     @step(f"Click on 'Let me hack' button")
@@ -112,8 +110,8 @@ class ShadyMeadowsPageObject:
         element = elements[1]
         self.logger.info(f"Move to 'rooms_block")
         self.__action.move_to_element(element).perform()
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms block.",
-               attachment_type=attachment_type.PNG)
+        # attach(self.__web_driver.get_screenshot_as_png(), name="Rooms block.",
+        #        attachment_type=attachment_type.PNG)
         return self
 
     @step("Find whole rooms_block calendar.")
@@ -128,8 +126,6 @@ class ShadyMeadowsPageObject:
             self.logger.error(
                 f"Web element by strategy {BasePageLocators.CALENDAR.by} and locator {BasePageLocators.CALENDAR.locator} is not found")
             raise
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block_calendar",
-               attachment_type=attachment_type.PNG)
         return elements
 
     @step("Find rooms_block 'First name' field.")
@@ -144,8 +140,6 @@ class ShadyMeadowsPageObject:
             self.logger.error(
                 f"Web element by strategy {BasePageLocators.FIRST_NAME.by} and locator {BasePageLocators.FIRST_NAME.locator} is not found")
             raise
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block First name field.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find rooms_block 'Last name' field.")
@@ -160,8 +154,6 @@ class ShadyMeadowsPageObject:
             self.logger.error(
                 f"Web element by strategy {BasePageLocators.LAST_NAME.by} and locator {BasePageLocators.LAST_NAME.locator} is not found")
             raise
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block Last name field.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find rooms_block 'Email' field.")
@@ -176,8 +168,6 @@ class ShadyMeadowsPageObject:
             self.logger.error(
                 f"Web element by strategy {BasePageLocators.EMAIL.by} and locator {BasePageLocators.EMAIL.locator} is not found")
             raise
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block Email field.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find rooms_block 'Phone' field.")
@@ -192,8 +182,6 @@ class ShadyMeadowsPageObject:
             self.logger.error(
                 f"Web element by strategy {BasePageLocators.PHONE.by} and locator {BasePageLocators.PHONE.locator} is not found")
             raise
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block Phone field.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find rooms_block 'Cancel' button.")
@@ -210,8 +198,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CANCEL_BUTTON.by} and locator {BasePageLocators.CANCEL_BUTTON.locator} is not found")
             raise
         element = cancel_order_room_button[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block 'Cancel' button.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find rooms_block 'Book' button.")
@@ -226,8 +212,6 @@ class ShadyMeadowsPageObject:
             self.logger.error(
                 f"Web element by strategy {BasePageLocators.BOOK_BUTTON.by} and locator {BasePageLocators.BOOK_BUTTON.locator} is not found")
             raise
-        attach(self.__web_driver.get_screenshot_as_png(), name="Rooms_block 'Book' button.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find 'Name' field in contact block.")
@@ -244,8 +228,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CONTACT_BLOCK_PERSONS_NAME.by} and locator {BasePageLocators.CONTACT_BLOCK_PERSONS_NAME.locator} is not found")
             raise
         element = elements[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="'Name' field in contact block.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find 'Email' field in contact block.")
@@ -261,8 +243,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CONTACT_BLOCK_EMAIL.by} and locator {BasePageLocators.CONTACT_BLOCK_EMAIL.locator} is not found")
             raise
         element = elements[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="'Email' field in contact block.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find contact_block 'Phone' field.")
@@ -278,8 +258,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CONTACT_BLOCK_PHONE.by} and locator {BasePageLocators.CONTACT_BLOCK_PHONE.locator} is not found")
             raise
         element = elements[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="'Phone' field in contact block.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find contact_block 'Subject' field.")
@@ -295,8 +273,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CONTACT_BLOCK_SUBJECT.by} and locator {BasePageLocators.CONTACT_BLOCK_SUBJECT.locator} is not found")
             raise
         element = elements[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="'Subject' field in contact block.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find contact_block 'Message' field.")
@@ -313,8 +289,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CONTACT_BLOCK_MESSAGE.by} and locator {BasePageLocators.CONTACT_BLOCK_MESSAGE.locator} is not found")
             raise
         element = elements[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="'Message' field in contact block.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Find contact_block 'Submit_button'.")
@@ -331,8 +305,6 @@ class ShadyMeadowsPageObject:
                 f"Web element by strategy {BasePageLocators.CONTACT_BLOCK_SUBMIT_BUTTON.by} and locator {BasePageLocators.CONTACT_BLOCK_SUBMIT_BUTTON.locator} is not found")
             raise
         element = elements[0]
-        attach(self.__web_driver.get_screenshot_as_png(), name="'Submit_button' in contact block.",
-               attachment_type=attachment_type.PNG)
         return element
 
     @step("Check that contact_block 'Submit_button' is clickable.")
@@ -340,8 +312,6 @@ class ShadyMeadowsPageObject:
         submit_button = self.get_contact_block_submit_button()
         self.logger.info(f"Move to contact_block 'Submit_button'.")
         self.__action.move_to_element(submit_button).perform()
-        attach(self.__web_driver.get_screenshot_as_png(), name="Contact_block 'Submit_button' is clickable.",
-               attachment_type=attachment_type.PNG)
         return self
 
     @step(f"Scroll to 'Submit' button on contact block and click on it.")
@@ -351,8 +321,6 @@ class ShadyMeadowsPageObject:
         self.__action.move_to_element(submit_button).perform()
         self.logger.info(f"Click on contact_block 'Submit_button'.")
         self.get_contact_block_submit_button().click()
-        attach(self.__web_driver.get_screenshot_as_png(), name="Click on 'Submit' button",
-               attachment_type=attachment_type.PNG)
         return self
 
     @step("Scroll to Book_this_room button in rooms block.")
@@ -360,16 +328,12 @@ class ShadyMeadowsPageObject:
         book_this_room_button = self.book_this_room_button_is_present()
         self.logger.info(f"Move to Book_this_room button in rooms block.")
         self.__action.move_to_element(book_this_room_button).perform()
-        attach(self.__web_driver.get_screenshot_as_png(), name="Book_this_room button",
-               attachment_type=attachment_type.PNG)
         return self
 
     @step("Click on Book_this_room button.")
     def click_book_this_room_button(self):
         self.logger.info(f"Click on Book_this_room button.")
         self.book_this_room_button_is_present().click()
-        attach(self.__web_driver.get_screenshot_as_png(), name="Click on 'Book_this_room' button",
-               attachment_type=attachment_type.PNG)
         return self
 
     @step("Scroll to 'Cancel' button in rooms block and click on it.")
@@ -379,6 +343,4 @@ class ShadyMeadowsPageObject:
         self.__action.move_to_element(cancel_button).perform()
         self.logger.info(f"Click on 'Cancel' button in rooms block.")
         self.get_rooms_block_cancel_order_room_button().click()
-        attach(self.__web_driver.get_screenshot_as_png(), name="Click on 'Cancel button' button",
-               attachment_type=attachment_type.PNG)
         return self
