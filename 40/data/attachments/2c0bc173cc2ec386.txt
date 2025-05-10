@@ -1,0 +1,4 @@
+2025-05-10 17:12:43,595 == 2344 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Navigating to the environmental URL: https://automationintesting.online/
+2025-05-10 17:12:43,977 == 2344 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Click on Book_this_room button.
+2025-05-10 17:12:43,977 == 2344 == test_contact_block_visibility_if_book_this_room_button_was_clicked == INFO: Search for 'Book_this_room_button'.
+2025-05-10 17:12:43,977 == 2344 == test_contact_block_visibility_if_book_this_room_button_was_clicked == DEBUG: Searching web element by strategy css selector and locator button.btn.btn-outline-primary.float-right.openBooking
